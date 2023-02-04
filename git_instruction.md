@@ -36,4 +36,13 @@ If you want to return to particular version of the project you should type the f
 
     git checkout <name of the version>
 
+## To see the difference:
+If you want to see the difference between sets of something, you should type this command:
+
+    git diff
+By default **git diff** shows any uncommitted changes since the last commit.
+
+For difference between two commits you should type:
+
+    git diff <name of version> <name of version>
 
