@@ -24,3 +24,8 @@ If you want to save current amendment to the project history in Git, you should 
 It is always better to add to every your commit a massage that shows the user what was chnged comparing with the previous version of the file. You should type the same command but with addition  **-m "_some massage_"**:
 
     git commit -m "massage"
+
+## Looking at all the commits:
+To see all the versions of your project, type the following command (it will show you how each commit is named in the system and how you can refer to it while accessing the particular commit):
+
+    git log
