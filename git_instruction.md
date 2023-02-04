@@ -7,3 +7,7 @@ If you want to place a project under revision control, you should type the follo
 
     git init
 
+## Adding files:
+If you want to add new or changed files in your working directory to the Git staging area, you should type the following command:
+
+    git add
