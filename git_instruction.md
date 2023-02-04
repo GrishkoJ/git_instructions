@@ -30,4 +30,10 @@ To see all the versions of your project, type the following command (it will sho
 
     git log
 
+## Accessing particular version:
+If you want to return to particular version of the project you should type the following command and add the name of the commit (which you can see after typing **git log**) or the first 4 symbols:
+
+
+    git checkout <name of the version>
+
 
