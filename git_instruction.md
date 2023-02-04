@@ -17,4 +17,10 @@ If you want to check whether there exist some changes that you can add and commi
 
     git status 
 
+## Saving changes to Git:
+If you want to save current amendment to the project history in Git, you should type the following command:
 
+    git commit
+It is always better to add to every your commit a massage that shows the user what was chnged comparing with the previous version of the file. You should type the same command but with addition  **-m "_some massage_"**:
+
+    git commit -m "massage"
