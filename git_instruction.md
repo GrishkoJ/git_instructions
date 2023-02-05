@@ -46,3 +46,22 @@ For difference between two commits you should type:
 
     git diff <name of version> <name of version>
 
+## Working with remote repository:
+Currently your repository is located on your device and you can access it only from it. In order to turn it into a remote repository, which you and your colleges can access in any time and from anywhere, you should upload it to your GitHub account. To do this use this commands: 
+
+    git remote add origin <URL>
+URL is given to every remote repository created by you on your GitHub WebPage. You should create a repository, copy its URL and paste it in the <...> in the command.
+After that you should type two more commands:
+
+    git branch -M main
+
+    git push -u origin main
+Now everything from your local file is transfered to remote repository. But if you add something in the local one new information is not automatically transfered to the remote repository. In order to do this you should type the following command:
+
+    git push
+this command pushes your local commits to remote repository.
+
+If something was added in your remote repository it also will not be automatically transfered to your local one. You should use the following command:
+
+    git push
+this command pulls added information from your remote repository.
