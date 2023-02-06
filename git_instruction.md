@@ -81,6 +81,9 @@ When you initialize a new repository you by default work on branch called "maste
     git branch <name of your new branch>
 Now you have the second (side) branch. Everything that had been commited in the master branch by the moment of the creation of the side branch  also exists in your second branch. 
 
+To check, on what branch you are currently working or what branches there exist in general, type:
+
+    git branch
 If you want to start work in your side branch, type:
 
     git checkout <name of your new branch>
