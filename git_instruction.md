@@ -96,3 +96,8 @@ When the work  with any of your side branch is done and it is no longer needed y
 
     git branch -d <name of the branch to delete>
 
+## More tips:
+* to clear the terminal, type:
+
+    clear
+* you can use arrow keys (up arrow, down arrow) to navigate through previously typed commands so not to write them again
