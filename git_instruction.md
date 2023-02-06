@@ -29,6 +29,12 @@ It is always better to add to every your commit a massage that shows the user wh
 To see all the versions of your project, type the following command (it will show you how each commit is named in the system and how you can refer to it while accessing the particular commit):
 
     git log
+more user-friendly way of showing all the commits with no extra information, type:
+
+    git log --oneline
+you can also use the following command to see the tree with branches (we will talk about them later) and commits:
+
+    git log --graph
 
 ## Accessing particular version:
 If you want to return to particular version of the project you should type the following command and add the name of the commit (which you can see after typing **git log**) or the first 4 symbols:
@@ -86,3 +92,4 @@ If there exists a conflict between two branches (version) you are suggested seve
 When the work  with any of your side branch is done and it is no longer needed you can delete the side branch by typing the following command:
 
     git branch -d <name of the branch to delete>
+
