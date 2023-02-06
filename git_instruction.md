@@ -63,5 +63,26 @@ this command pushes your local commits to remote repository.
 
 If something was added in your remote repository it also will not be automatically transfered to your local one. You should use the following command:
 
-    git push
+    git pull
 this command pulls added information from your remote repository.
+
+## Working with branches:
+When you initialize a new repository you by default work on branch called "master" or "main", depends on the version of the programm. There your final copy of your project is usually placed. To create isolated development environments within a single repository where you can work with draft copy or any connected task or seperated parts of your project type:
+
+    git branch <name of your new branch>
+Now you have the second (side) branch. Everything that had been commited in the master branch by the moment of the creation of the side branch  also exists in your second branch. 
+
+If you want to start work in your side branch, type:
+
+    git checkout <name of your new branch>
+If you want to return to your master branch, type:
+
+    git checkout master
+If you want to add your side branch to your master branch,type:
+
+    git merge <name of your new branch>
+If there exists a conflict between two branches (version) you are suggested several ways how to resolve it: to use the version from the master branch, to use the one from the side branch, to compile and etc. You should choose whatever suits you. 
+
+When the work  with any of your side branch is done and it is no longer needed you can delete the side branch by typing the following command:
+
+    git branch -d <name of the branch to delete>
