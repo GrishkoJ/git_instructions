@@ -99,6 +99,25 @@ When the work  with any of your side branch is done and it is no longer needed y
 
     git branch -d <name of the branch to delete>
 
+## Creating a pull request:
+If you want to add your repository to another person's repository on GitHub - to create a pull request - you should follow the steps below: 
+
+1. access a repository you neeed
+2. press the button in the upper right corner of the page called "Fork": now you have a copy of the "forked" repository in your account, which you have full access to and can work in.
+3. copy the URL of the repository
+4. type the command 
+
+    git clone URL
+
+5. create a new branch to make there our ammendments in the file
+6. work only in the new branch
+7. use the command git push to add your ammendments to the remote repository
+8. On the GitHub page there appears the button:
+
+    compare & pull request
+9. if there is no problem merging the branches, than you can leave a comment to your work and create a pull request
+
+    
 ## More tips:
 * to clear the terminal, type:
 
